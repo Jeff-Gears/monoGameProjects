@@ -24,3 +24,6 @@ H:\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.csprojReso
 H:\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.csproj.CoreCompileInputs.cache
 H:\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.exe
 H:\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.pdb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\earth.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\shuttle.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\stars.xnb

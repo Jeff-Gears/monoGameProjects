@@ -13,13 +13,13 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin NewSpriteFont.spritefont
+#begin images/NewSpriteFont.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:TextureFormat=Compressed
-/build:NewSpriteFont.spritefont
+/build:images/NewSpriteFont.spritefont
 
-#begin shuttle.png
+#begin images/shuttle.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -29,5 +29,5 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:shuttle.png
+/build:images/shuttle.png
 
