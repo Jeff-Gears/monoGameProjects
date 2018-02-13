@@ -4,8 +4,10 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>H:/monoGameProjects/praticeGame/praticeGame/Content/shuttle.png</File>
-    <File>H:/monoGameProjects/praticeGame/praticeGame/Content/stars.jpg</File>
-    <File>H:/monoGameProjects/praticeGame/praticeGame/Content/earth.png</File>
+    <File>H:/monoGameProjects/praticeGame/praticeGame/Content/images/shuttle.png</File>
+    <File>H:/monoGameProjects/praticeGame/praticeGame/Content/fontsprites/gamaliel/Gamaliel.png</File>
+    <File>H:/monoGameProjects/praticeGame/praticeGame/Content/fontsprites/score.spritefont</File>
+    <File>H:/monoGameProjects/praticeGame/praticeGame/Content/images/stars.jpg</File>
+    <File>H:/monoGameProjects/praticeGame/praticeGame/Content/images/earth.png</File>
   </SourceFiles>
 </SourceFileCollection>

@@ -14,6 +14,8 @@ namespace praticeGame
         private Texture2D background;
         private Texture2D shuttle;
         private Texture2D earth;
+        private SpriteFont font;
+        private int score = 0;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -42,9 +44,10 @@ namespace praticeGame
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            background = Content.Load<Texture2D>("stars"); // change these names to the names of your images
-            shuttle = Content.Load<Texture2D>("shuttle");  // if you are using your own images.
-            earth = Content.Load<Texture2D>("earth");
+            background = Content.Load<Texture2D>("images/stars"); // change these names to the names of your images
+            shuttle = Content.Load<Texture2D>("images/shuttle");  // if you are using your own images.
+            earth = Content.Load<Texture2D>("images/earth");
+            font = Content.Load<SpriteFont>("fontsprites/Score"); // Use the name of your sprite font file here instead of 'Score'.
             // TODO: use this.Content to load your game content here
         }
 
@@ -85,6 +88,7 @@ namespace praticeGame
             spriteBatch.Draw(background, new Rectangle(0, 0, 800, 480), Color.White);
             spriteBatch.Draw(earth, new Vector2(400, 240), Color.White);
             spriteBatch.Draw(shuttle, new Vector2(450, 240), Color.White);
+            spriteBatch.DrawString(font, "Score", new Vector2(100, 100), Color.Black);
             spriteBatch.End();
             base.Draw(gameTime);
         }

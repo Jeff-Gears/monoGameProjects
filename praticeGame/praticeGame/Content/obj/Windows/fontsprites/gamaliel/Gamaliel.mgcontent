@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>H:/monoGameProjects/praticeGame/praticeGame/Content/earth.png</SourceFile>
-  <SourceTime>2018-02-08T10:18:24.2421766-05:00</SourceTime>
-  <DestFile>H:/monoGameProjects/praticeGame/praticeGame/Content/bin/Windows/earth.xnb</DestFile>
-  <DestTime>2018-02-12T10:13:26.9323608-05:00</DestTime>
+  <SourceFile>H:/monoGameProjects/praticeGame/praticeGame/Content/fontsprites/gamaliel/Gamaliel.png</SourceFile>
+  <SourceTime>2018-02-13T09:42:30.6765576-05:00</SourceTime>
+  <DestFile>H:/monoGameProjects/praticeGame/praticeGame/Content/bin/Windows/fontsprites/gamaliel/Gamaliel.xnb</DestFile>
+  <DestTime>2018-02-13T10:16:46.1896859-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

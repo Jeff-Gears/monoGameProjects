@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>H:/monoGameProjects/praticeGame/praticeGame/Content/shuttle.png</SourceFile>
-  <SourceTime>2018-02-08T10:18:13.8503162-05:00</SourceTime>
-  <DestFile>H:/monoGameProjects/praticeGame/praticeGame/Content/bin/Windows/shuttle.xnb</DestFile>
-  <DestTime>2018-02-12T10:13:26.4643548-05:00</DestTime>
+  <SourceFile>H:/monoGameProjects/praticeGame/praticeGame/Content/images/earth.png</SourceFile>
+  <SourceTime>2018-02-08T10:18:24.2421766-05:00</SourceTime>
+  <DestFile>H:/monoGameProjects/praticeGame/praticeGame/Content/bin/Windows/images/earth.xnb</DestFile>
+  <DestTime>2018-02-13T10:16:47.0320967-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
