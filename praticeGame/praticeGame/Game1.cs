@@ -69,7 +69,10 @@ namespace praticeGame
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-
+            if (true == true)
+            {
+                score = score + 1;
+            }
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -88,7 +91,8 @@ namespace praticeGame
             spriteBatch.Draw(background, new Rectangle(0, 0, 800, 480), Color.White);
             spriteBatch.Draw(earth, new Vector2(400, 240), Color.White);
             spriteBatch.Draw(shuttle, new Vector2(450, 240), Color.White);
-            spriteBatch.DrawString(font, "Score", new Vector2(100, 100), Color.Black);
+            spriteBatch.DrawString(font, "Score", new Vector2(100, 100), Color.White);
+            spriteBatch.DrawString(font, "Score: " + score, new Vector2(100, 100), Color.White);
             spriteBatch.End();
             base.Draw(gameTime);
         }
