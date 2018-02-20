@@ -21,10 +21,8 @@ H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\SharpDX.XInput
 H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\SharpDX.RawInput.xml
 H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
 H:\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.csprojResolveAssemblyReference.cache
-H:\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.csproj.CoreCompileInputs.cache
 H:\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.exe
 H:\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.pdb
-H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\NewSpriteFont.xnb
 H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\shuttle.xnb
 C:\Users\joesi\Documents\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.exe
 C:\Users\joesi\Documents\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.pdb
@@ -54,3 +52,8 @@ C:\Users\joesi\Documents\monoGameProjects\praticeGame\praticeGame\bin\Windows\x8
 C:\Users\joesi\Documents\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\SharpDX.XInput.xml
 C:\Users\joesi\Documents\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
 C:\Users\joesi\Documents\monoGameProjects\praticeGame\praticeGame\obj\x86\Debug\praticeGame.csprojResolveAssemblyReference.cache
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\fontsprites\gamaliel\Gamaliel.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\fontsprites\score.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\earth.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\SmileyWalk.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\stars.xnb

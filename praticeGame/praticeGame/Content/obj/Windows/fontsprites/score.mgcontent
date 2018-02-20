@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/joesi/Documents/monoGameProjects/praticeGame/praticeGame/Content/fontsprites/score.spritefont</SourceFile>
-  <SourceTime>2018-02-15T18:48:01.1830863-05:00</SourceTime>
-  <DestFile>C:/Users/joesi/Documents/monoGameProjects/praticeGame/praticeGame/Content/bin/Windows/fontsprites/score.xnb</DestFile>
-  <DestTime>2018-02-15T19:31:49.1839894-05:00</DestTime>
+  <SourceFile>H:/monoGameProjects/praticeGame/praticeGame/Content/fontsprites/score.spritefont</SourceFile>
+  <SourceTime>2018-02-13T10:02:24.3410367-05:00</SourceTime>
+  <DestFile>H:/monoGameProjects/praticeGame/praticeGame/Content/bin/Windows/fontsprites/score.xnb</DestFile>
+  <DestTime>2018-02-20T08:39:51.1469441-05:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
-  <ImporterTime>2017-03-01T10:05:36-05:00</ImporterTime>
+  <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
-  <ProcessorTime>2017-03-01T10:05:36-05:00</ProcessorTime>
+  <ProcessorTime>2016-03-30T02:36:08-04:00</ProcessorTime>
   <Parameters>
     <Key>TextureFormat</Key>
     <Value>Compressed</Value>

@@ -96,5 +96,6 @@ namespace praticeGame
             spriteBatch.End();
             base.Draw(gameTime);
         }
+
     }
 }
