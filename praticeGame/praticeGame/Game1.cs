@@ -16,6 +16,9 @@ namespace praticeGame
         private Texture2D earth;
         private SpriteFont font;
         private int score = 0;
+        private AnimatedSprite animatedSprite;
+        private Texture2D arrow;
+        private float angle = 0;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -48,6 +51,9 @@ namespace praticeGame
             shuttle = Content.Load<Texture2D>("images/shuttle");  // if you are using your own images.
             earth = Content.Load<Texture2D>("images/earth");
             font = Content.Load<SpriteFont>("fontsprites/Score"); // Use the name of your sprite font file here instead of 'Score'.
+            Texture2D texture = Content.Load<Texture2D>("images/SmileyWalk");
+            animatedSprite = new AnimatedSprite(texture, 4, 4);
+            arrow = Content.Load<Texture2D>("images/arrow"); // use the name of your texture here, if you are using your own
             // TODO: use this.Content to load your game content here
         }
 
@@ -73,6 +79,8 @@ namespace praticeGame
             {
                 score = score + 1;
             }
+            animatedSprite.Update();
+            angle += 0.01f;
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -93,6 +101,16 @@ namespace praticeGame
             spriteBatch.Draw(shuttle, new Vector2(450, 240), Color.White);
             spriteBatch.DrawString(font, "Score", new Vector2(100, 100), Color.White);
             spriteBatch.DrawString(font, "Score: " + score, new Vector2(100, 100), Color.White);
+            animatedSprite.Draw(spriteBatch, new Vector2(400, 200));
+            spriteBatch.Begin();
+ 
+            Vector2 location = new Vector2(400, 240);
+            Rectangle sourceRectangle = new Rectangle(0, 0, arrow.Width, arrow.Height);
+            Vector2 origin = new Vector2(arrow.Width / 2, arrow.Height);
+
+            spriteBatch.Draw(arrow, location, sourceRectangle, Color.White, angle, origin, 1.0f, SpriteEffects.None, 1);
+ 
+            spriteBatch.End();
             spriteBatch.End();
             base.Draw(gameTime);
         }
