@@ -19,6 +19,16 @@ namespace praticeGame
         private AnimatedSprite animatedSprite;
         private Texture2D arrow;
         private float angle = 0;
+        private Texture2D blue;
+        private Texture2D green;
+        private Texture2D red;
+        private float blueAngle = 0;
+        private float greenAngle = 0;
+        private float redAngle = 0;
+        private float blueSpeed = 0.025f;
+        private float greenSpeed = 0.017f;
+        private float redSpeed = 0.022f;
+        private float distance = 100;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -54,6 +64,9 @@ namespace praticeGame
             Texture2D texture = Content.Load<Texture2D>("images/SmileyWalk");
             animatedSprite = new AnimatedSprite(texture, 4, 4);
             arrow = Content.Load<Texture2D>("images/arrow"); // use the name of your texture here, if you are using your own
+            blue = Content.Load<Texture2D>("images/blue");
+            green = Content.Load<Texture2D>("images/green");
+            red = Content.Load<Texture2D>("images/red");
             // TODO: use this.Content to load your game content here
         }
 
@@ -81,6 +94,9 @@ namespace praticeGame
             }
             animatedSprite.Update();
             angle += 0.01f;
+            blueAngle += blueSpeed;
+            greenAngle += greenSpeed;
+            redAngle += redSpeed;
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -102,6 +118,17 @@ namespace praticeGame
             spriteBatch.DrawString(font, "Score", new Vector2(100, 100), Color.White);
             spriteBatch.DrawString(font, "Score: " + score, new Vector2(100, 100), Color.White);
             animatedSprite.Draw(spriteBatch, new Vector2(400, 200));
+            Vector2 bluePosition = new Vector2(
+                (float)System.Math.Cos(blueAngle) * distance,
+                (float)System.Math.Sin(blueAngle) * distance);
+            Vector2 greenPosition = new Vector2(
+                            (float)System.Math.Cos(greenAngle) * distance,
+                            (float)System.Math.Sin(greenAngle) * distance);
+            Vector2 redPosition = new Vector2(
+                            (float)System.Math.Cos(redAngle) * distance,
+                            (float)System.Math.Sin(redAngle) * distance);
+
+            Vector2 center = new Vector2(300, 140);
             spriteBatch.Begin();
  
             Vector2 location = new Vector2(400, 240);
@@ -109,8 +136,18 @@ namespace praticeGame
             Vector2 origin = new Vector2(arrow.Width / 2, arrow.Height);
 
             spriteBatch.Draw(arrow, location, sourceRectangle, Color.White, angle, origin, 1.0f, SpriteEffects.None, 1);
- 
+
+            graphics.GraphicsDevice.Clear(Color.CornflowerBlue);
+            graphics.GraphicsDevice.Clear(Color.Black);
+
             spriteBatch.End();
+            spriteBatch.End();
+            spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.Additive);
+
+            spriteBatch.Draw(blue, center + bluePosition, Color.White);
+            spriteBatch.Draw(green, center + greenPosition, Color.White);
+            spriteBatch.Draw(red, center + redPosition, Color.White);
+
             spriteBatch.End();
             base.Draw(gameTime);
         }
