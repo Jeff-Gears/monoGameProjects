@@ -57,3 +57,7 @@ H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\fontsp
 H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\earth.xnb
 H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\SmileyWalk.xnb
 H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\stars.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\arrow.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\blue.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\green.xnb
+H:\monoGameProjects\praticeGame\praticeGame\bin\Windows\x86\Debug\Content\images\red.xnb
